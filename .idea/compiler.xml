@@ -10,6 +10,7 @@
         <module name="spc-eureka-server" />
         <module name="hello-app" />
         <module name="user-app" />
+        <module name="demo-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-test" options="-parameters" />
       <module name="hello-app" options="-parameters" />
       <module name="helloapp" options="-parameters" />
       <module name="spc-eureka-server" options="-parameters" />
