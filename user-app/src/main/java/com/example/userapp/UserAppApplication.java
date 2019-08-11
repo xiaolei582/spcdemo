@@ -84,12 +84,6 @@ public class UserAppApplication {
 
     private Logger log = LoggerFactory.getLogger(UserAppApplication.class);
 
-    @GetMapping("/log-instance")
-    public void logInstance(){
-        ServiceInstance serviceInstance = this.loadBalancerClient.choose("flim-user");
-        log.info("{}:{}:{}",serviceInstance.getServiceId(),serviceInstance.getHost(),serviceInstance.getPort());
-    }
-
 
     @Autowired
     private FeignTest feignTest;

@@ -10,7 +10,6 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaServer
-@RestController
 public class SpcEurekaServerApplication {
 
     public static void main(String[] args) {
