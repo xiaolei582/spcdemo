@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-app" />
-        <module name="spc-eureka-server" />
         <module name="demo-test" />
+        <module name="spc-eureka-server" />
+        <module name="user-app" />
         <module name="hello-app" />
         <module name="user-test" />
         <module name="spc-eureka-server2" />
